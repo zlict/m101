@@ -1,4 +1,5 @@
 {
     "html.format.indentInnerHtml": true,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "html.format.maxPreserveNewLines": 2
 }
