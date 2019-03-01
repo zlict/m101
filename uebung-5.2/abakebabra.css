@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+}
+
+header, main, footer {
+    overflow: auto;
+}
+
+header {
+    /* source https://commons.wikimedia.org/wiki/File:D%C3%B6ner_Kebab_in_Istanbul.jpg */
+    background-image: url('abakebabra.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+main {
+    background-color: #EEE;
+}
+
+h1 span {
+    display: block;
+    font-size: 0.8em;
+}
