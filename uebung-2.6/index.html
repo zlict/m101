@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Link Exposé</title>
+    <style>
+      body {
+        padding: 2rem;
+        margin: 0;
+      }
+
+      a,
+      a:visited {
+        text-decoration: none;
+        color: blue;
+      }
+
+      .link-expose {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: .5rem;
+        margin: 2rem 0 4rem 0;
+        list-style: none;
+      }
+
+      .link-expose-item {
+        height: 65vh;
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Einfaches Link-Styling mit der :hover "pseudo"-Klasse</h1>
+    <section class="link-expose">
+      <article id="link1" class="link-expose-item">
+        <a href="#link1">Dieser Link wird unterstrichen</a>
+      </article>
+
+      <article id="link2" class="link-expose-item">
+        <a href="#link2">Dieser Link wird grün</a>
+      </article>
+
+      <article id="link3" class="link-expose-item">
+        <a href="#link3">Dieser Link wird durchgestrichen</a>
+      </article>
+
+      <article id="link4" class="link-expose-item">
+        <a href="#link4">Dieser Link wird doppelt so gross</a>
+      </article>
+
+      <article id="link5" class="link-expose-item">
+        <a href="#link5">Dieser Link erhält rot als Hintergrund</a>
+      </article>
+
+      <article id="link6" class="link-expose-item">
+        <a href="#link6">Dieser Link erhält blau als Hintergrund und wird über- und unterstrichen</a>
+      </article>
+    </section>
+
+    <h1>Einfaches Link-Styling mit weiteren "pseudo"-Klassen</h1>
+    <section class="link-expose">
+      <article id="link7" class="link-expose-item">
+        <a href="#link7">Dieser Link wird beim Klick doppelt so gross</a>
+      </article>
+      <article id="link8" class="link-expose-item">
+        <a href="#link8">Dieser Link ist orange, wenn man ihn besucht hat</a>
+      </article>
+      <article id="link9" class="link-expose-item">
+        <a href="#link9">Dieser Link wird fett, wenn er fokusiert ist</a>
+      </article>
+    </section>
+  </body>
+
+</html>
